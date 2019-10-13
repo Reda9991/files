@@ -7,7 +7,7 @@
 "plugins_": {
 "info_server.lua":"STORMCLI",
 "db.lua":"STORMCLI"
-"hack.lua":STORMCLI"
+"hack.lua":"STORMCLI"
 "start.lua":"STORMCLI",
 "rdrp.lua":"STORMCLI",
 "botrd.lua":"STORMCLI",
