@@ -6,6 +6,7 @@
 
 "plugins_": {
 "info_server.lua":"STORMCLI",
+ "ban_all.lua":"STORMCLI",
 "db.lua":"STORMCLI"
 "hack.lua":"STORMCLI"
 "start.lua":"STORMCLI",
