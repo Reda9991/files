@@ -56,8 +56,8 @@ moody = "هلو عمري "
 send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 
-if text == 'رضا' then
-moody = "@riida"
+if text == 'سورس' then
+moody = "@disco3"
 send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'شلونكم' then
