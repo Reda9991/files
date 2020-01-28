@@ -64,7 +64,7 @@ database:incrby('tshake:'..bot_id..'add:numall'..msg.chat_id_..iduserr,numadded)
 send(msg.chat_id_, msg.id_,  1, "\n📥┇تم حذف {"..numadded..'} من المجوهرات', 1, 'md')  
 end
 ------------------------------------------------------------ add msg
-if is_devboos(msg) or is_sudo(msg) or is_creatorbasic(msg) or is_creatorbasicc(msg.chat_id_,msg.sender_user_id_) or is_creatorr(msg.chat_id_,msg.sender_user_id_) or is_creator(msg) and ChekAdd(msg.chat_id_) == true then
+if is_devboos(msg) or is_sudo(msg) or is_creatorbasic(msg.chat_id_,msg.sender_user_id_) or is_creatorr(msg.chat_id_,msg.sender_user_id_) or is_creator(msg) and ChekAdd(msg.chat_id_) == true then
 if text and text:match("^اضف رسائل (%d+)$") and msg.reply_to_message_id_ == 0 then    
 ridha = text:match("^اضف رسائل (%d+)$")
 database:set('tshake:'..bot_id..'id:user'..msg.chat_id_,ridha)  
